@@ -21,10 +21,7 @@ async def on_redy():
 
     
 @client.command()
-async def mine(ctx):    
-
-
-def generate_world():
+async def generate_world(ctx):
     for x in range(world_height):
         if x <= 2:
             for x in range(world_height):
