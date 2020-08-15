@@ -25,19 +25,19 @@ async def generate_world(ctx):
     for x in range(world_height):
         if x <= 2:
             for x in range(world_height):
-                await ctx.send(f'0', end = '')
+                await ctx.send(f'0')
             await ctx.send()
         elif x <= 3:
             for x in range(world_width):
-                await ctx.send(random.choice(second_part), end = '')
+                await ctx.send(random.choice(second_part))
             await ctx.send()
         elif x <= 4:
             for x in range(world_width):
-                await ctx.send(1, end = '')
+                await ctx.send(f'1')
             await ctx.send()
         elif x <= 5:
             for x in range(world_width):
-                await ctx.send(random.choice(third_part), end = '')
+                await ctx.send(random.choice(third_part))
             await ctx.send()
         elif x <= 7:
             for x in range(world_width):
