@@ -50,10 +50,23 @@ generate_world()
 @client.command()
 async def world(ctx): 
     a = random.choice(['0'])
+    b = random.choice(['0'])
+    c = random.choice(['0'])
+    d = random.choice(['0'])
+    e = random.choice(['0'])
+    f = random.choice(['0'])
+    g = random.choice(['0'])
+    h = random.choice(['0'])
+    i = random.choice(['0'])
+    l = random.choice(['0'])
+    k = random.choice(['0'])
+    o = random.choice(['0'])
+    p = random.choice(['0'])
+    
     sec = random.choice(['1','0'])
     th = random.choice(['1'])
     four = random.choice(['1','2'])
-    await ctx.send( a, a, a, a, a, a, a, a, a, a, a, a, a )                   
+    await ctx.send( a, b, c, d, e, f, g, h, i, l, k, o, p )                   
     
                        
                        
