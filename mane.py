@@ -12,8 +12,8 @@ world = {}
 world_width = 8
 world_height = 24
 
-second_part = [0,1]
-third_part = [1,2]
+second_part = (['0','1'])
+third_part = (['1','2'])
 
 @client.event
 async def on_redy():
