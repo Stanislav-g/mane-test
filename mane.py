@@ -49,7 +49,7 @@ generate_world()
 
 @client.command()
 async def world(ctx): 
-    first = random.choice(['0'])
+    a = random.choice(['0'])
     sec = random.choice(['1','0'])
     th = random.choice(['1'])
     four = random.choice(['1','2'])
