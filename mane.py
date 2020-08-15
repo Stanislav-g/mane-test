@@ -47,7 +47,16 @@ async def generate_world(ctx):
 generate_world()
  
 
+@client.command()
+async def world(ctx): 
+    first = random.choice(['0'])
+    sec = random.choice(['1','0'])
+    th = random.choice(['1'])
+    four = random.choice(['1','2'])
+    await ctx.send( a, a, a, a, a, a, a, a, a, a, a, a, a )                   
     
-    
+                       
+                       
+                      
 token= os.environ.get('BOT_TOKEN')
 client.run( token )
