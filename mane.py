@@ -8,7 +8,12 @@ import asyncio
 
 client = commands.Bot( command_prefix = '*')
 
+world = {}
+world_width = 24
+world_heirht = 8
 
+second_part = [0,1]
+third_part = [1,2]
 
 @client.event
 async def on_redy():
@@ -17,12 +22,7 @@ async def on_redy():
     
 @client.command()
 async def mine(ctx):    
-world = {}
-world_width = 24
-world_heirht = 8
 
-second_part = [0,1]
-third_part = [1,2]
 
 def generate_world():
     for x in range(world_height):
