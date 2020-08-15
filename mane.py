@@ -9,11 +9,11 @@ import asyncio
 client = commands.Bot( command_prefix = '*')
 
 world = {}
-world_width = 8
-world_height = 24
+world_width = 13
+world_height = 8
 
-second_part = (['0','1'])
-third_part = (['1','2'])
+second_part = random.choice(['0','1'])
+third_part = random.choice(['1','2'])
 
 @client.event
 async def on_redy():
@@ -29,7 +29,7 @@ async def generate_world(ctx):
             await ctx.send()
         elif x <= 3:
             for x in range(world_width):
-                await ctx.send(random.choice(second_part))
+                await ctx.send( second_part )
             await ctx.send()
         elif x <= 4:
             for x in range(world_width):
@@ -37,7 +37,7 @@ async def generate_world(ctx):
             await ctx.send()
         elif x <= 5:
             for x in range(world_width):
-                await ctx.send(random.choice(third_part))
+                await ctx.send( third_part )
             await ctx.send()
         elif x <= 7:
             for x in range(world_width):
