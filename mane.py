@@ -9,8 +9,8 @@ import asyncio
 client = commands.Bot( command_prefix = '*')
 
 world = {}
-world_width = 24
-world_height = 8
+world_width = 8
+world_height = 24
 
 second_part = [0,1]
 third_part = [1,2]
